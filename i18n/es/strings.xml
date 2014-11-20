@@ -1,0 +1,7 @@
+<resources>
+	<string name="index_title">Inicio</string>
+    <string name="drivers_title">Pilotos</string>
+    <string name="teams_title">Escuderías</string>
+    <string name="races_title">Circuitos</string>
+    <string name="news_title_upper">Noticias</string>
+</resources>
