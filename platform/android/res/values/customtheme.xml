@@ -3,7 +3,7 @@
 	<color name="red">#FFC62828</color>
     <style name="Theme.NoActionBar" parent="@style/Theme.AppCompat">
     	<item name="android:windowTranslucentStatus">true</item>
-    	<item name="android:windowTranslucentNavigation">true</item>
+    	<item name="android:windowTranslucentNavigation">false</item>
     	<item name="android:windowBackground">@color/red</item>
         <item name="windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>

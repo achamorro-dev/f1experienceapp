@@ -1,0 +1,4 @@
+<Alloy>
+	<ScrollView id="index_list_view" class="list-view">
+	</ScrollView>
+</Alloy>

@@ -7,7 +7,7 @@
 	backgroundColor: Alloy.CFG.dark_main_color,
 	height: '24dp',
 	top: 0,
-	zIndex: 4,
+	zIndex: 5,
 	width: Ti.UI.FIT
 },
 ".actionbar": {
@@ -16,7 +16,7 @@
 	left: 0,
 	top: '24dp',
 	width: Ti.UI.FIT,
-	zIndex: 5
+	zIndex: 6
 },
 ".actionbar-shadow": {
 	backgroundColor: 'black',
@@ -25,14 +25,14 @@
 	opacity: 0.2,
 	top: '24dp',
 	width: Ti.UI.FIT,
-	zIndex: 4
+	zIndex: 5
 },
 ".actionbar-main-icon": {
 	backgroundColor: 'transparent',
-	backgroundImage: '/images/menu.png',
-	left: '16dp',
-	height: '13dp',
-	width: '20dp'
+	backgroundImage: '/images/icons/menu.png',
+	left: '5dp',
+	height: '35dp',
+	width: '40dp'
 },
 ".actionbar-title": {
 	color: "#FFF",
@@ -44,14 +44,11 @@
 	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
 	left: '72dp'	
 },
-".card-list-view": {
-	backgroundColor: '#EEEEEE',
-	top: '0'
-},
-".floating-image": {
-	height: '62dp',
-	image: '/images/test.png',
-	left: '50dp',
-	bottom: '16dp',
-	width: '62dp'
+".list-view": {
+	backgroundColor: Alloy.CFG.window_background_color,
+	backgroundColor: 'grey',
+	layout: 'vertical',
+	top: '80dp',
+	width: Ti.UI.FIT,
+	zIndex: 3
 }

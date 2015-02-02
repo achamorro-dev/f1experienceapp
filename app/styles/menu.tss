@@ -26,6 +26,7 @@
 '.menu-row-image':{
 	left: '16dp',
 	height: '18dp',
+	opacity: 0.5,
 	width: '18dp'
 },
 '.menu-row-text':{

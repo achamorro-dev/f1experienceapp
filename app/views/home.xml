@@ -6,7 +6,10 @@
 			<Label id="menu_title" class="actionbar-title">F1 Experience</Label>
 		</View>
 		<View class="actionbar-shadow" id="actionbar_shadow"></View>
-		<ScrollView id="scrollView" width="100%" height="100%" backgroundColor="#FFF"></ScrollView>
+		<Require src="lists/drivers_list" id="drivers_list"></Require>
+		<Require src="lists/teams_list" id="teams_list"></Require>
+		<Require src="lists/races_list" id="races_list"></Require>
+		<Require src="lists/index_list" id="index_list"></Require>
 		<Require src="menu" id="menu"></Require>
 	</Window>
 </Alloy>
