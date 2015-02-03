@@ -10,7 +10,7 @@
 			<Label class="menu-row-text" text="L('drivers_title')"></Label>
 		</TableViewRow>
 		<TableViewRow class="menu-row" id="teams_menu_row" onClick="menuItemFunction">
-			<ImageView class="menu-row-image" id="teams_menu_row_image"></ImageView>
+			<ImageView class="menu-row-image" id="teams_menu_row_image"></ImageView> 
 			<Label class="menu-row-text" text="L('teams_title')"></Label>
 		</TableViewRow>
 		<TableViewRow class="menu-row" id="races_menu_row" onClick="menuItemFunction">

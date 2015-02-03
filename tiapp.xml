@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
     <id>com.ach4m0.f1experience</id>
-    <name>f1experience</name>
+    <name>F1Experience</name>
     <version>1.0</version>
     <publisher>alberto</publisher>
     <url>http://</url>

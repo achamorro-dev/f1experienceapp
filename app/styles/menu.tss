@@ -11,7 +11,7 @@
 },
 '.menu-header':{
 	backgroundColor: 'transparent',
-	backgroundImage: '/images/semaforo.jpg',
+	backgroundImage: '/images/races/photos/2.jpg',
 	bottom: '8dp',
 	height: '180dp',
 	selectedBackgroundColor: Alloy.CFG.dark_main_color,
