@@ -23,7 +23,8 @@ var preload_data = [
 {id: 22,name: "Singapur"},
 {id: 23,name: "Japón"},
 {id: 24,name: "Estados Unidos"},
-{id: 25,name: "Abu Dhabi"}
+{id: 25,name: "Abu Dhabi"},
+{id: 26,name: "Países Bajos"}
 ];
 
 migration.up = function(migrator)
