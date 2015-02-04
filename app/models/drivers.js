@@ -8,7 +8,8 @@ exports.definition = {
             "name": "string",
             "country_id": "int", // countries model id
             "shortname": "string",
-            "team_id": "int" // teams model id
+            "team_id": "int", // teams model id
+            "number": "int"
         },
         "defaults": {
             "championships": 0,
@@ -26,7 +27,7 @@ exports.definition = {
         _.extend(Collection.prototype, {
         	
     	    comparator : function(driver) {
-        	    return driver.get('name');
+        	    return driver.get('id');
             }
             
         });
