@@ -23,7 +23,7 @@ exports.definition = {
         }
     },
     
-    extendCollection: function(Collection) {		
+    extendCollection: function(Collection) {
         _.extend(Collection.prototype, {
         	
     	    comparator : function(team) {
