@@ -21,5 +21,17 @@ exports.definition = {
             "idAttribute": "id",
             "type": "sql"
         }
+    },
+    
+    extendCollection: function(Collection) {		
+        _.extend(Collection.prototype, {
+        	
+    	    comparator : function(team) {
+        	    return team.get('id');
+            }
+            
+        });
+		
+        return Collection;
     }
 };
