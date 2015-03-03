@@ -4,7 +4,7 @@
 	navBarHidden: true	
 },
 ".statusbar-background": {
-	backgroundColor: Alloy.CFG.dark_main_color,
+	backgroundColor: Alloy.CFG.main_color,
 	height: '24dp',
 	top: 0,
 	zIndex: 5,
@@ -34,6 +34,13 @@
 	height: '35dp',
 	width: '40dp'
 },
+".actionbar-return-icon": {
+	backgroundColor: 'transparent',
+	backgroundImage: '/images/icons/return.png',
+	left: '5dp',
+	height: '35dp',
+	width: '40dp'
+},
 ".actionbar-title": {
 	color: "#FFF",
 	font: {
@@ -42,7 +49,7 @@
 		fontWeight: 'bold'
 	},
 	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
-	left: '72dp'	
+	left: '72dp'
 },
 ".list-view": {
 	backgroundColor: Alloy.CFG.window_background_color,
@@ -51,4 +58,44 @@
 	top: '80dp',
 	width: Ti.UI.FIT,
 	zIndex: 3
+},
+'.tabs-container':{
+	backgroundColor: '#FFFFFF',
+	height: Ti.UI.FIT,
+	left: '0',
+	top: '80dp',
+	width: Ti.UI.FIT,
+	zIndex: 6
+},
+'.tabs-list':{
+	backgroundColor: Alloy.CFG.main_color,
+	height:'48dp',
+	layout: 'horizontal',
+	left: 0,
+	scrollType: 'horizontal',
+	top: 0
+},
+'.tab-item':{
+	backgroundColor: Alloy.CFG.main_color,
+	bottom: 0,
+	color: '#E5E5E5',
+	font: {
+		fontFamily: Alloy.CFG.body2_font,
+		fontSize: Alloy.CFG.subhead_size,
+		fontWeight: 'normal'
+	},
+	height:'48dp',
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	width: '100dp'
+},
+'.tab-item-active':{
+	color: '#FFFFFF',
+	font: {
+		fontWeight: 'bold'
+	}
+},
+'.tabs-views':{
+	height: Ti.UI.FIT,
+	top:'48dp',
+	width: Ti.UI.FIT
 }

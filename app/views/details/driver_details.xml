@@ -1,0 +1,23 @@
+<Alloy>
+	<Window id="win_details" class="container" onOpen="doOpen">
+        <View class="statusbar-background"></View>
+		<View class="actionbar" id="actionbar">
+			<Button id="return_icon" class="actionbar-return-icon" onClick="closeWindow"></Button>
+			<Label id="bar_title" class="actionbar-title"></Label>
+		</View>
+		<View id="tabs" class="tabs-container">
+			<ScrollView id="tabs_list" class="tabs-list">
+				<Label id="tab1" class="tab-item tab-item-active" text="INFO" idx="1" onClick="clickTabItem"></Label>
+				<Label id="tab2" class="tab-item" text="RESULTADOS" idx="2" onClick="clickTabItem"></Label>
+			</ScrollView>
+			<ScrollableView id="tabs_views" onScrollEnd="scrollTabsViews" class="tabs-views">
+				<View id="tab_view1" backgroundColor="#123">
+				   <Label>View 1</Label>
+				</View>
+				<View id="tab_view2" backgroundColor="#246">
+					<Label>View 2</Label>
+				</View>
+			</ScrollableView>
+		</View>
+	</Window>
+</Alloy>
